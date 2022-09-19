@@ -76,4 +76,21 @@ print(eighth_list.count(21)) #Gives 0
 ninth_list = [9,8,7,5]
 ninth_list.reverse()
 print(ninth_list)
- 
+
+# Sort
+# sort the items in the lists (in-place)
+# sorts numbers in acsending order
+tenth_list = [6,3,9,2,7]
+tenth_list.sort()
+print(tenth_list)
+
+# sorts words in alphabatical order
+eleventh_list = ['colt' , 'blue', 'sara' , 'aryan' , 'khalid' , 'sahil' , 'jabir']
+eleventh_list.sort()
+print(eleventh_list)
+
+# sorts capital letters first
+eleventh_list = ['colt' , 'blue', 'sara' , 'aryan' , 'khalid' , 'sahil' , 'jabir']
+eleventh_list.append('ARYAN')
+eleventh_list.sort()
+print(eleventh_list)
