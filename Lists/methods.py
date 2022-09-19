@@ -1,5 +1,8 @@
 # Append
 
+from unicodedata import name
+
+
 first_list = [1,2,3,4]
 first_list.append(5)
 first_list.append([6,7,8,9])
@@ -94,3 +97,12 @@ eleventh_list = ['colt' , 'blue', 'sara' , 'aryan' , 'khalid' , 'sahil' , 'jabir
 eleventh_list.append('ARYAN')
 eleventh_list.sort()
 print(eleventh_list)
+
+# JION -->(Actually an string method)
+# Used to convert list to strings
+
+words = ['Coding' ' is' ' Fun!']
+print(''.join(words))
+
+name = ['Mr', 'Steele']
+print('. '.join(name))
