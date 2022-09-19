@@ -70,4 +70,10 @@ print(eighth_list.count(2))
 print(eighth_list.count(3))
 print(eighth_list.count(21)) #Gives 0
 
+# Reverse
+# Reverse the elements of the list (in-place)
+
+ninth_list = [9,8,7,5]
+ninth_list.reverse()
+print(ninth_list)
  
