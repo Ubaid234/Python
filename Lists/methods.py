@@ -42,3 +42,22 @@ print(fifth_list)
 sixth_list = [1,2,3,22,2,3]
 sixth_list.remove(22)
 print(sixth_list)
+
+# Index 
+# Returns the index of a specified item in the list
+
+seventh_list = [5,5,6,7,5,8,8,9,10]
+print(seventh_list.index(5))
+
+# Can specify start and end
+
+seventh_list = [5,5,6,7,5,8,8,9,10]
+print(seventh_list.index(5,1)) #-- Gives the index from index of 1
+print(seventh_list.index(5,2))
+
+# Start and end Both
+
+seventh_list = [5,5,6,7,5,8,8,9,10]
+print(seventh_list.index(8,6,8))
+# The above statement gives the index of 8 starting from the idex of 6 to the index of 8.
+
