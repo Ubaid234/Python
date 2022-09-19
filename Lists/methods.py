@@ -60,4 +60,14 @@ print(seventh_list.index(5,2))
 seventh_list = [5,5,6,7,5,8,8,9,10]
 print(seventh_list.index(8,6,8))
 # The above statement gives the index of 8 starting from the idex of 6 to the index of 8.
+# Gives error if not in the list
 
+# Count 
+# Returns the number of times x appers in the list
+
+eighth_list = [1,2,3,4,3,2,1,10,2]
+print(eighth_list.count(2))
+print(eighth_list.count(3))
+print(eighth_list.count(21)) #Gives 0
+
+ 
