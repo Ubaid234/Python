@@ -48,7 +48,7 @@ print(first_list[2::-1])
 string = 'This is fun!'
 print(string[::-1])
 
-# Modifying portions of iists
+# Modifying portions of Lists
 
 numbers = [1,2,3,4,5]
 numbers[1:3] = ['a','b','c']
