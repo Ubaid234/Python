@@ -1,8 +1,5 @@
 # Append
 
-from unicodedata import name
-
-
 first_list = [1,2,3,4]
 first_list.append(5)
 first_list.append([6,7,8,9])
