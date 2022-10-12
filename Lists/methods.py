@@ -59,7 +59,7 @@ print(seventh_list.index(5,2))
 
 seventh_list = [5,5,6,7,5,8,8,9,10]
 print(seventh_list.index(8,6,8))
-# The above statement gives the index of 8 starting from the idex of 6 to the index of 8.
+# The above statement gives the index of 8 starting from the index of 6 to the index of 8.
 # Gives error if not in the list
 
 # Count 

@@ -1,4 +1,5 @@
 # SLICING
+# some_list[start:end:step]
 # First parameter for slice: start
 
 first_list = [1,2,3,4]
