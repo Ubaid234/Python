@@ -27,3 +27,5 @@ print(truth)
 nums = [1,2,3,4,5]
 string_list = [str(num) for num in nums]
 print(string_list)
+string_list = [str(num)+ "Hello" for num in nums]
+print(string_list)
