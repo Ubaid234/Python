@@ -63,7 +63,7 @@ print(seventh_list.index(8,6,8))
 # Gives error if not in the list
 
 # Count 
-# Returns the number of times x appers in the list
+# Returns the number of times x appears in the list
 
 eighth_list = [1,2,3,4,3,2,1,10,2]
 print(eighth_list.count(2))
