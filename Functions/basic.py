@@ -19,3 +19,12 @@ def say_hi():
 say_hi()
 say_hi()
 say_hi()
+
+# returning a function
+
+def say_hi():
+    return 'Hello'
+
+greeting = say_hi()
+
+print(greeting)
