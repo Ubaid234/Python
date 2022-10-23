@@ -1,7 +1,5 @@
 # *Args
-
-from urllib3 import Retry
-
+# Gathers remaining arguments as a tuple
 
 def sum_all_values(*args):
     total = 0 
@@ -23,4 +21,3 @@ def ensure_correct_info(*args):
 
 print(ensure_correct_info('hello' , False , 76))
 print(ensure_correct_info(1,True, 'steele' , 'colt'))
-
