@@ -1,3 +1,5 @@
+# lambdas are anonymous functions!
+
 def square(num) : 
     return num * num 
 
