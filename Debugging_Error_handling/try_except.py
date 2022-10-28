@@ -16,4 +16,5 @@ def get(d,key):
 d = {"name" : "Ricky"}
 print(get(d, "city"))
 d["city"]
+
   
