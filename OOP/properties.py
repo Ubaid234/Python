@@ -16,18 +16,18 @@ class Human :
     #     else:
     #         self._age = 0
         
-    @property
+    @property #Decorators , Syntax for getter
     def age(self):
         return self._age
 
-    @age.setter
+    @age.setter # Syntax for setter
     def age(self, value):
         if value >= 0 :
             self._age = value 
         else:
             raise ValueError("age can't be negative!")
     
-    @property
+    @property 
     def full_name(self):
         return f"{self.first} {self.last}"
 
