@@ -16,4 +16,20 @@ it = iter(name)
 for char in "Oprah" :
     print(char)
 
+# NEXT
+
+# When next() is called on an iterator, the iterator returns the next item. It keeps doing so until it raises a StopIteration error.
+
+fit = iter("LOST")
+print(next(fit))
+print(next(fit))
+print(next(fit))
+print(next(fit))
+# print(next(fit)) gives error
+
+
+
+
+
+
  
