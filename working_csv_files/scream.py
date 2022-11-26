@@ -6,7 +6,7 @@ with open('working_csv_files/fighters.csv') as file:
     for row in fighters :
         print(row)
 
-# with open('working_csv_files/screeming_fighters_csv', "w") as file:
-#     csv_writer = writer(file)
-#     for fighter in fighters:
-#         csv_writer.writerow(fighter)
+with open('working_csv_files/screeming_fighters_csv', "w") as file:
+    csv_writer = writer(file)
+    for fighter in fighters:
+        csv_writer.writerow(fighter)
