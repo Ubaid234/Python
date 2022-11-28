@@ -3,7 +3,7 @@ html = """
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" class="special">
   <title>First HTML Page</title>
 </head>
 <body>
@@ -12,7 +12,7 @@ html = """
     <p>more text.</p>
   </div>
   <ol>
-    <li class="special">This list item is special.</li>
+    <li class="special super-special">This list item is special.</li>
     <li class="special">This list item is also special.</li>
     <li>This list item is not special.</li>
   </ol>
@@ -48,8 +48,30 @@ soup = BeautifulSoup(html, "html.parser")
 # d = soup.select("div")
 # print(d)
 
-d = soup.select("[data-example]")
-print(d)
+# d = soup.select("[data-example]")
+# print(d)
+
+# Accessing data in elements 
+
+#get_text()
+for el in soup.select(".special"):
+  print(el.get_text())
+
+#name
+for el in soup.select(".special"):
+  print(el.name)
+
+#attrs
+# for el in soup.select(".special"):
+#   print(el.attrs["class"])
+
+# attr = soup.find("h3")["data-example"]
+attr = soup.find("div")["id"]
+print(attr)
+
+
+
+
 
 
 print(type(soup))
