@@ -54,24 +54,33 @@ soup = BeautifulSoup(html, "html.parser")
 # Accessing data in elements 
 
 #get_text()
-for el in soup.select(".special"):
-  print(el.get_text())
+# for el in soup.select(".special"):
+#   print(el.get_text())
 
 #name
-for el in soup.select(".special"):
-  print(el.name)
+# for el in soup.select(".special"):
+#   print(el.name)
 
 #attrs
 # for el in soup.select(".special"):
 #   print(el.attrs["class"])
 
 # attr = soup.find("h3")["data-example"]
-attr = soup.find("div")["id"]
-print(attr)
+# attr = soup.find("div")["id"]
+# print(attr)
 
+# Navigating with beautiful soup 
 
+# data = soup.body.contents[1].contents
+# data = soup.body.contents[1].next_sibling.next_sibling
+# data = soup.find(class_="super-special").parent.parent
+# data = soup.find(id="first").find_next_sibling()
+# data = soup.find(id="first").next_sibling
+# data = soup.find(id="first").find_next_sibling().find_next_sibling()
+# data = soup.select("[data-example]")[1].find_previous_sibling()
 
+# data = soup.find("h3").find_parent()
+data = soup.find("h3").find_parent("html")
 
-
-
-print(type(soup))
+print(data)
+# print(type(soup))
