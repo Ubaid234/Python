@@ -36,5 +36,20 @@ soup = BeautifulSoup(html, "html.parser")
 # print(soup.find_all(class_="special"))
 
 # Selecting by attribute 
-print(soup.find_all(attrs={"data-example": "yes"}))
+# print(soup.find_all(attrs={"data-example": "yes"}))
+
+# Selecting by css selectors
+# d = soup.select("#first")[0]
+# print(d)
+
+# d = soup.select(".special")
+# print(d)
+
+# d = soup.select("div")
+# print(d)
+
+d = soup.select("[data-example]")
+print(d)
+
+
 print(type(soup))
