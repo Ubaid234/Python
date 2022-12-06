@@ -20,3 +20,5 @@
 # * 	Zero or more times
 # ? 	Once or none (optional)
 
+# CHARACTER CLASSES 
+[ ... ]
