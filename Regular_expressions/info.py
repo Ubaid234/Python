@@ -22,3 +22,12 @@
 
 # CHARACTER CLASSES 
 [ ... ]
+
+
+# SOME REGEX SYNTAX
+
+# ANCHOR AND BOUNDARIES  
+
+# ^ 	Start of string or line
+# $ 	End of string or line
+# \b 	Word boundary
